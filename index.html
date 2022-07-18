@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>andar-consultores</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Cookie&family=Handlee&family=Hubballi&family=Montserrat:wght@600&family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./html/reclutamiento.html" target="_blank">Reclutamiento</a></li>
+                  <li><a class="dropdown-item" href="./html/capacitaciones.html" target="_blank">Capacitaciones</a></li>
+                  <li><a class="dropdown-item" href="./html/outsourcing.html" target="_blank">Outsourcing</a></li>
+                  <li><a class="dropdown-item" href="./html/consultoria-asesoramiento.html" target="_blank">Consultoria y asesoramiento</a></li>
+                  
+            </ul>
+          </li>
+        </ul>
+       </div>
+    </div>
+  
+  </nav>
+
+  <div class="portada">
+    <img src="./img/imagen-portada.jpg" alt="andar">
+  </div>
+
+<div id="nosotros">
+  <h1 class="animate__animated animate__zoomIn">Nos presentamos...</h1>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div data-aos="flip-left"data-aos-duration="2000" class="col">
+    <div class="card">
+      <img src="./img/quienes-somos.jpg" class="card-img-top" alt="somos">
+      <div class="card-body">
+        <h5 class="card-title">Nosotros</h5>
+        <p class="card-text">Somos un grupo de profesionales orientados a brindar soluciones y asesoría en
+          el campo del Capital Humano y
+          Seguridad e Higiene del Trabajo.</p>
+      </div>
+    </div>
+  </div>
+  <div data-aos="flip-right" data-aos-duration="2000" class="col">
+    <div class="card">
+      <img src="./img/trabajo-equipo.jpg" class="card-img-top" alt="equipo">
+      <div class="card-body">
+        <h5 class="card-title">Como lo hacemos</h5>
+        <p class="card-text">Brindamos soluciones personalizadas, prácticas y de valor.
+          Trabajando en equipo, alineados a
+          tus necesidades, con flexibilidad y
+          responsabilidad.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<section class="cv">
+  <h3>Formá parte de nuestras búsquedas</h3>
+  <p>Envianos tu cv y forma parte de nuestros procesos de selección.  </p>
+</section>
+
+<div>
+  <a class="enviar-cv"  href="mailto:consultores.andar@gmail"> Envia CV</a>
+</div>
+
+<div class="contacto">
+
+<p class="contac"> Contactanos</p>
+
+<div class="box-form">
+<form class="formulario" action= "https://formsubmit.co/ romicatencio@gmail.com" method="POST" >
+
+
+<div>
+<label for="nombre"> Nombre:</label>
+<input type="text" name="nombre" id="nombre">
+
+</div>
+
+<div>
+  <label class="email" for="email"> E-mail:</label>
+  <input type="text" name="email" id="email">
+</div>
+
+<div>
+  <p>Dejanos tu mensaje</p>
+  <textarea name="comentario" id="comentarios" cols="40" rows="10"> </textarea>
+</div>
+
+<div>
+  <input type="submit" value= " Enviar" class="envio">
+  <input type="reset" value="Borrar todo" class="envio">
+</div>
+
+<input type="hidden" name="_next" value="exito.html">
+<input type="hidden" name="_captcha" value="false">
+</form>
+</div>
+</div>
+
+  
+
+  
+
+<footer>
+
+  <a href="https://www.linkedin.com/company/andar-consultores/" target="_blank"> <img src="./img/linkedin-negro.png" alt="linkedin"></a>
+  <a href="https://www.facebook.com/search/top?q=andar%20consultores" target="_blank"> <img src="./img/face-negro.png" alt="face"></a>
+  <a href="https://www.instagram.com/andarconsultores/" target="_blank"> <img src="./img/instagram-negro.png" alt="inst"></a>
+  <a href="https://wa.me/54111564049314">
+    <img src="./img/logo-what-negro.jpg" alt="cel"></a>
+  </div>
+
+</footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

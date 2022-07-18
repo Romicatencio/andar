@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+@media screen and (min-width: 769px){
+    
+
+
+
+ul{ margin-left:400px;
+    }
+
+/* items */
+.nav-link{
+    color: white;
+    font-size: 20px;
+
+    &:hover{
+        color: rgb(247, 165, 59);
+        
+    }
+}
+/* barra de navegacion */
+.container-fluid {
+    background-color: black;
+    padding: 20px;
+    
+}
+/* img de portada */
+.portada 
+        {
+         padding: 20px;
+         
+    img{
+    
+    
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+
+    
+}}
+
+
+/* titulo-nos presentamos */
+
+#nosotros h1{
+
+    font-size: 40px;
+    color: white;
+    background-color:rgb(247, 165, 59);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* nosotros */
+/* contenedor de img */
+.card { padding: 30px;
+        border:solid 3px darkgrey;
+        margin: 20px;
+        background-color: black;}
+        /* titulo */
+ .card-title{
+        font-size: 40px;
+        color: black;
+        background-color: rgb(247, 165, 59);
+        text-align: center;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    /* explicacion*/
+
+.card-text{
+        font-size: 20px;
+        color:white;
+        text-align: center;
+
+    }
+/* animacion-texto-nos presentamos */
+    .animate__animated{
+        animation-duration: 3s;
+        animation-delay: 1.5s;
+    }
+
+/* seccion:deja CV */
+
+.cv{
+    border: solid rgb(1, 1, 133) 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 25px;
+    margin:60px;
+
+    
+
+    h3{
+        color:rgb(247, 165, 59);
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    p{
+        color:black;
+        font-size: 35px;
+    }
+}
+ 
+/* botón-enviar CV */
+.enviar-cv{
+    border-radius: 30px;
+    background-color: black;
+    color: darkorange;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding:  10px 30px;
+    text-decoration: none;
+    margin-left: 600px;
+
+    &:hover{
+        color: black;
+        background-color:darkorange;
+        
+    
+    }
+}
+
+
+/* contacto */
+
+.contacto{background-color: black;
+          border: solid 6px grey;
+          margin: 20px;
+
+ .contac{
+    color: darkorange;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    
+}
+.formulario{
+    background-color: black;
+    color:white;
+}
+
+}
+
+.box-form{
+    display: grid;
+
+    .formulario{
+        display: grid;
+        grid-template-columns: 2fr 2fr 3fr;
+        padding: 10px;
+        margin: 10px;
+        
+        
+    }
+    
+}
+
+.envio{
+    background-color: darkorange;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border:solid black 3px;
+    
+   
+}
+
+/* footer */
+
+footer{
+    background-color: grey;
+    padding: 15px;
+
+    img{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        border-radius: 40px;
+        display: inline-block;
+        
+    }
+}
+
+
+/* reclutamiento */
+ 
+ /* body-reclutamiento */
+ .box-recl{
+    background: radial-gradient( gray, darkorange, white, black);
+ }
+
+ /* explicacion */
+.busqueda{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    margin:auto; 
+    border-radius: 30px;
+    border: solid 15px rgb(9, 9, 94);
+    
+    
+    
+
+   
+    p{
+        font-size: 30px;
+        text-align: center;
+        padding: 30px;
+        color: black;
+        font-weight: 600;
+        
+    }
+}
+ /* titulo principal */
+.tit-recl{
+    font-size: 60px;
+    color: rgb(247, 165, 59);
+    text-align: center;
+    background-image: url(../img/busqueda.webp);
+    padding: 30px;
+    margin: 30px;
+    border: solid 8px white;
+    font-weight: 700;
+}
+
+
+/* pasos a seguir */
+/* organizacion del esquema */
+.item{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+    padding: 10px;
+
+/* formato de los cuadros */
+    .item-1{
+        background-color: black;
+        padding: 20px;
+        margin-top: 20px;
+        border: solid 7px white;
+    }
+
+/* explicacion */
+        p{
+            color:white;
+            font-weight: 600;
+            font-size: 25px;
+            padding: 20px;
+            text-align: center;
+        }
+    
+
+/* titulo */
+    h3{
+        font-size: 30px;
+        color:rgb(3, 3, 102);
+        text-align: center;
+        padding: 10px;
+        background-color: white;
+        border: solid 3px black;
+    }
+
+
+        img{
+          width: 70px;
+          height: 70px;
+        
+          
+         }
+
+    }
+
+
+/* adicionales */
+.adicionales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    
+    /* contenedor */
+    div{
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 6px black;
+    }
+/* titulo */
+h3{
+    font: 25px;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(77, 75, 75);
+    padding: 10px;
+}
+/* explicacion */
+p{
+    font-size: 20px;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+}
+
+/* capacitaciones */
+
+/* titulo principal */
+
+    .titulo-cap{
+        font-size: 60px;
+        background-image: url(../img/imagen-portada.jpg);
+        color:white;
+        text-align: center;
+        padding: 70px;
+    }
+
+    
+/* contenedor de las imagenes */
+.box-cap{
+    
+background-color: black;
+height: 900px;
+/* formato de las img */
+    .img-1{
+
+        border: solid 6px white;
+        padding: 10px;
+        margin-left: 150px;
+        margin-top: 30px;
+        width: 900px;
+        height: auto;
+        
+    
+
+    }
+
+    .img-2{
+        border: solid 6px white;
+        padding: 10px;
+        margin-top: -400px;
+        width: 600px;
+        height: auto;
+        margin-left: 90px;
+        margin-bottom: -150px;
+        
+       
+
+    }
+
+    .img-3{
+        border: solid 6px white;
+        margin-top: -400px;
+        margin-left: 900px;
+        margin-bottom: 900px;
+        width: 400px;
+        height: auto;
+
+    }
+
+
+    
+}
+/* explicacion de las capacitaciones */
+ .explicacion-cap{
+
+   border: solid 8px black;
+
+    p{
+        font-size: 25px;
+        color: rgb(27, 27, 114);
+        padding: 30px;
+        font-weight: 600; 
+    
+    }
+ }
+
+/* consultoria */
+
+/* titulo principal */
+.titulo-con{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    background:linear-gradient(to left,white,gray);
+    padding: 30px;
+    margin: 10px;
+}
+ 
+/* contenedor de ig y explicacion */
+.img-con img{
+        width: 100%;
+        height: auto;
+        max-width: 1200px;
+        margin-left: 80px;
+        border: 5px solid white;}
+    
+/* explicacion */
+    .img-con p{
+        font-size: 30px;
+        color: brown;
+        text-align: center;
+        margin: 10px;
+        font-weight: 600;
+    }
+
+
+/* outsourcing */
+/* titulo principal */
+
+.out h1{
+        font-size: 60px;
+        color:darkorange ;
+        text-align: center;
+        padding: 20px;
+        background-color:black ;}
+    
+/* explicacion del outsourcing */
+ .out  p{
+        font-size: 30px;
+        /* background-color: darkorange; */
+        color: black;
+        /* border-radius: 30px;
+        border: solid 6px black; */
+        width: 800px;
+        padding: 20px;
+        margin: 10px;
+        margin-left: 250px;
+    }
+
+/* titulo-seguridad e higiene */
+.titulo-seguridad{
+    h3{
+        font-size: 50px;
+        color:darkorange ;
+        text-align: center;
+        padding: 10px;
+        background-color: gray;
+    }
+
+}
+/* organizaion img e items */
+.seguridad{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    border: solid 8px black;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    
+   
+    
+
+    .img-seguridad{
+        
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        /* border: solid 5px black; */
+        
+        
+    }
+
+     div p { 
+        
+       
+       /* items */
+            color: white;
+        /* color:rgb(4, 4, 56); */
+        font-size: 20px;
+        font-weight: 400;
+        text-align:left;
+        margin-left: 50px;
+        margin: 15px;
+        padding: 10px;
+        margin-bottom: -30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+
+
+}
+/* titulo.recursos hum */
+
+.humanosh2{
+        font-size: 50px;
+        color:darkorange ;
+        background-color:gray ;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* contenedor img-texto */
+.img-recursos{ background:linear-gradient( darkorange, white);
+    padding: 10px;
+    margin: 20px;
+
+    img{
+        width: 80px;
+        height: 80px;
+        display: inline;
+        margin-left: 10px;
+        margin: 20px;
+        border-radius: 40px;
+        border: solid 4px black;
+       
+    }
+
+    /* item de recursos hum */
+    h3{
+        font-size: 20px;
+        display: inline;
+       
+    }
+}
+
+
+}
+

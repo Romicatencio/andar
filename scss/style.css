@@ -1,0 +1,863 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 769px) {
+  ul {
+    margin-left: 400px;
+  }
+  /* items */
+  .nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  .nav-link:hover {
+    color: #f7a53b;
+  }
+  /* barra de navegacion */
+  .container-fluid {
+    background-color: black;
+    padding: 20px;
+  }
+  /* img de portada */
+  .portada {
+    padding: 20px;
+  }
+  .portada img {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+  }
+  /* titulo-nos presentamos */
+  #nosotros h1 {
+    font-size: 40px;
+    color: white;
+    background-color: #f7a53b;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  }
+  /* nosotros */
+  /* contenedor de img */
+  .card {
+    padding: 30px;
+    border: solid 3px darkgrey;
+    margin: 20px;
+    background-color: black;
+  }
+  /* titulo */
+  .card-title {
+    font-size: 40px;
+    color: black;
+    background-color: #f7a53b;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+  }
+  /* explicacion*/
+  .card-text {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  /* animacion-texto-nos presentamos */
+  .animate__animated {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  /* seccion:deja CV */
+  .cv {
+    border: solid #010185 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 25px;
+    margin: 60px;
+  }
+  .cv h3 {
+    color: #f7a53b;
+    font-size: 40px;
+    padding: 10px;
+  }
+  .cv p {
+    color: black;
+    font-size: 35px;
+  }
+  /* botón-enviar CV */
+  .enviar-cv {
+    border-radius: 30px;
+    background-color: black;
+    color: darkorange;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-left: 600px;
+  }
+  .enviar-cv:hover {
+    color: black;
+    background-color: darkorange;
+  }
+  /* contacto */
+  .contacto {
+    background-color: black;
+    border: solid 6px grey;
+    margin: 20px;
+  }
+  .contacto .contac {
+    color: darkorange;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+  }
+  .contacto .formulario {
+    background-color: black;
+    color: white;
+  }
+  .box-form {
+    display: -ms-grid;
+    display: grid;
+  }
+  .box-form .formulario {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr 3fr;
+        grid-template-columns: 2fr 2fr 3fr;
+    padding: 10px;
+    margin: 10px;
+  }
+  .envio {
+    background-color: darkorange;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid black 3px;
+  }
+  /* footer */
+  footer {
+    background-color: grey;
+    padding: 15px;
+  }
+  footer img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 40px;
+    display: inline-block;
+  }
+  /* reclutamiento */
+  /* body-reclutamiento */
+  .box-recl {
+    background: radial-gradient(gray, darkorange, white, black);
+  }
+  /* explicacion */
+  .busqueda {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    border: solid 15px #09095e;
+  }
+  .busqueda p {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    font-weight: 600;
+  }
+  /* titulo principal */
+  .tit-recl {
+    font-size: 60px;
+    color: #f7a53b;
+    text-align: center;
+    background-image: url(../img/busqueda.webp);
+    padding: 30px;
+    margin: 30px;
+    border: solid 8px white;
+    font-weight: 700;
+  }
+  /* pasos a seguir */
+  /* organizacion del esquema */
+  .item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    /* formato de los cuadros */
+    /* explicacion */
+    /* titulo */
+  }
+  .item .item-1 {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 7px white;
+  }
+  .item p {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+  }
+  .item h3 {
+    font-size: 30px;
+    color: #030366;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: solid 3px black;
+  }
+  .item img {
+    width: 70px;
+    height: 70px;
+  }
+  /* adicionales */
+  .adicionales {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    /* contenedor */
+    /* titulo */
+    /* explicacion */
+  }
+  .adicionales div {
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 6px black;
+  }
+  .adicionales h3 {
+    font: 25px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    background-color: #4d4b4b;
+    padding: 10px;
+  }
+  .adicionales p {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  /* capacitaciones */
+  /* titulo principal */
+  .titulo-cap {
+    font-size: 60px;
+    background-image: url(../img/imagen-portada.jpg);
+    color: white;
+    text-align: center;
+    padding: 70px;
+  }
+  /* contenedor de las imagenes */
+  .box-cap {
+    background-color: black;
+    height: 900px;
+    /* formato de las img */
+  }
+  .box-cap .img-1 {
+    border: solid 6px white;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 900px;
+    height: auto;
+  }
+  .box-cap .img-2 {
+    border: solid 6px white;
+    padding: 10px;
+    margin-top: -400px;
+    width: 600px;
+    height: auto;
+    margin-left: 90px;
+    margin-bottom: -150px;
+  }
+  .box-cap .img-3 {
+    border: solid 6px white;
+    margin-top: -400px;
+    margin-left: 900px;
+    margin-bottom: 900px;
+    width: 400px;
+    height: auto;
+  }
+  /* explicacion de las capacitaciones */
+  .explicacion-cap {
+    border: solid 8px black;
+  }
+  .explicacion-cap p {
+    font-size: 25px;
+    color: #1b1b72;
+    padding: 30px;
+    font-weight: 600;
+  }
+  /* consultoria */
+  /* titulo principal */
+  .titulo-con {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background: -webkit-gradient(linear, right top, left top, from(white), to(gray));
+    background: linear-gradient(to left, white, gray);
+    padding: 30px;
+    margin: 10px;
+  }
+  /* contenedor de ig y explicacion */
+  .img-con img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin-left: 80px;
+    border: 5px solid white;
+  }
+  /* explicacion */
+  .img-con p {
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+  }
+  /* outsourcing */
+  /* titulo principal */
+  .out h1 {
+    font-size: 60px;
+    color: darkorange;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+  }
+  /* explicacion del outsourcing */
+  .out p {
+    font-size: 30px;
+    /* background-color: darkorange; */
+    color: black;
+    /* border-radius: 30px;
+        border: solid 6px black; */
+    width: 800px;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 250px;
+  }
+  /* titulo-seguridad e higiene */
+  .titulo-seguridad h3 {
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+  }
+  /* organizaion img e items */
+  .seguridad {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    border: solid 8px black;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+  }
+  .seguridad .img-seguridad {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    /* border: solid 5px black; */
+  }
+  .seguridad div p {
+    /* items */
+    color: white;
+    /* color:rgb(4, 4, 56); */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 50px;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: -30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* titulo.recursos hum */
+  .humanosh2 {
+    font-size: 50px;
+    color: darkorange;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+  }
+  /* contenedor img-texto */
+  .img-recursos {
+    background: -webkit-gradient(linear, left top, left bottom, from(darkorange), to(white));
+    background: linear-gradient(darkorange, white);
+    padding: 10px;
+    margin: 20px;
+    /* item de recursos hum */
+  }
+  .img-recursos img {
+    width: 80px;
+    height: 80px;
+    display: inline;
+    margin-left: 10px;
+    margin: 20px;
+    border-radius: 40px;
+    border: solid 4px black;
+  }
+  .img-recursos h3 {
+    font-size: 20px;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* menu de navegacion */
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  /* items */
+  .nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  .nav-link:hover {
+    color: #f7a53b;
+  }
+  /* barra de navegacion */
+  .container-fluid {
+    background-color: black;
+    padding: 20px;
+  }
+  /* img de portada */
+  .portada {
+    padding: 20px;
+  }
+  .portada img {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+  /* titulo-nos presentamos */
+  #nosotros h1 {
+    font-size: 20px;
+    color: white;
+    background-color: #f7a53b;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  }
+  /* nosotros */
+  /* contenedor de img */
+  .card {
+    padding: 30px;
+    border: solid 3px darkgrey;
+    margin: 20px;
+    background-color: black;
+  }
+  /* titulo */
+  .card-title {
+    font-size: 20px;
+    color: black;
+    background-color: #f7a53b;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+  }
+  /* explicacion*/
+  .card-text {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  /* animacion-texto-nos presentamos */
+  .animate__animated {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  /* seccion:deja CV */
+  .cv {
+    border: solid #010185 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 25px;
+    margin: 60px;
+  }
+  .cv h3 {
+    color: #f7a53b;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .cv p {
+    color: black;
+    font-size: 25px;
+  }
+  /* botón-enviar CV */
+  .enviar-cv {
+    border-radius: 30px;
+    background-color: black;
+    color: darkorange;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-left: 160px;
+  }
+  .enviar-cv:hover {
+    color: black;
+    background-color: darkorange;
+  }
+  /* contacto */
+  .contacto {
+    background-color: black;
+    border: solid 6px grey;
+    margin: 20px;
+  }
+  .contacto .contac {
+    color: darkorange;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+  }
+  .contacto .formulario {
+    background-color: black;
+    color: white;
+  }
+  .contacto .email {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  .box-form {
+    display: -ms-grid;
+    display: grid;
+  }
+  .box-form .formulario {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    padding: 10px;
+    margin: 10px;
+  }
+  .envio {
+    background-color: darkorange;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid black 3px;
+  }
+  /* footer */
+  footer {
+    background-color: grey;
+    padding: 15px;
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    display: inline-block;
+  }
+  /* reclutamiento */
+  /* body-reclutamiento */
+  .box-recl {
+    background: radial-gradient(gray, darkorange, white, black);
+  }
+  /* explicacion */
+  .busqueda {
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    border: solid 15px #09095e;
+  }
+  .busqueda p {
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    font-weight: 600;
+  }
+  /* titulo principal */
+  .tit-recl {
+    font-size: 30px;
+    color: #f7a53b;
+    text-align: center;
+    background-image: url(../img/busqueda.webp);
+    padding: 30px;
+    margin: 30px;
+    border: solid 8px white;
+    font-weight: 700;
+  }
+  /* pasos a seguir */
+  /* organizacion del esquema */
+  .item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    /* formato de los cuadros */
+    /* explicacion */
+    /* titulo */
+  }
+  .item .item-1 {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 7px white;
+  }
+  .item p {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  .item h3 {
+    font-size: 20px;
+    color: #030366;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: solid 3px black;
+  }
+  .item img {
+    width: 40px;
+    height: 40px;
+  }
+  /* adicionales */
+  .adicionales {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 10px;
+    /* contenedor */
+    /* titulo */
+    /* explicacion */
+  }
+  .adicionales div {
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 6px black;
+  }
+  .adicionales h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    background-color: #4d4b4b;
+    padding: 10px;
+  }
+  .adicionales p {
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  /* capacitaciones */
+  /* titulo principal */
+  .titulo-cap {
+    font-size: 25px;
+    background-image: url(../img/imagen-portada.jpg);
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  /* contenedor de las imagenes */
+  .box-cap {
+    background-color: black;
+    height: 400px;
+    /* formato de las img */
+  }
+  .box-cap .img-1 {
+    border: solid 6px white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+  }
+  .box-cap .img-2 {
+    border: solid 6px white;
+    padding: 10px;
+    margin-top: -400px;
+    width: 350px;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: -150px;
+  }
+  .box-cap .img-3 {
+    border: solid 6px white;
+    margin-top: -200px;
+    margin-left: 200px;
+    margin-bottom: 500px;
+    width: 250px;
+    height: auto;
+  }
+  /* explicacion de las capacitaciones */
+  .explicacion-cap {
+    border: solid 8px black;
+  }
+  .explicacion-cap p {
+    font-size: 15px;
+    color: #1b1b72;
+    padding: 30px;
+    font-weight: 600;
+  }
+  /* consultoria */
+  /* titulo principal */
+  .titulo-con {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: -webkit-gradient(linear, right top, left top, from(white), to(gray));
+    background: linear-gradient(to left, white, gray);
+    padding: 20px;
+    margin: 10px;
+  }
+  /* contenedor de ig y explicacion */
+  .img-con img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-left: 40px;
+    border: 5px solid white;
+  }
+  /* explicacion */
+  .img-con p {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+  }
+  /* outsourcing */
+  /* titulo principal */
+  .out h1 {
+    font-size: 30px;
+    color: darkorange;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+  }
+  /* explicacion del outsourcing */
+  .out p {
+    font-size: 15px;
+    /* background-color: darkorange; */
+    color: black;
+    /* border-radius: 30px;
+    border: solid 6px black; */
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 50px;
+  }
+  /* titulo-seguridad e higiene */
+  .titulo-seguridad h3 {
+    font-size: 30px;
+    color: darkorange;
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+  }
+  /* organizaion img e items */
+  .seguridad {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    border: solid 8px black;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+  }
+  .seguridad .img-seguridad {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    /* border: solid 5px black; */
+  }
+  .seguridad div p {
+    /* items */
+    color: white;
+    /* color:rgb(4, 4, 56); */
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 50px;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: -30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* titulo.recursos hum */
+  .humanos h2 {
+    font-size: 30px;
+    color: darkorange;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+  }
+  /* contenedor img-texto */
+  .img-recursos {
+    background: -webkit-gradient(linear, left top, left bottom, from(darkorange), to(white));
+    background: linear-gradient(darkorange, white);
+    padding: 10px;
+    margin: 20px;
+    /* item de recursos hum */
+  }
+  .img-recursos img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin-left: 10px;
+    margin: 20px;
+    border-radius: 40px;
+    border: solid 4px black;
+  }
+  .img-recursos h3 {
+    font-size: 15px;
+    display: inline;
+  }
+}
+/*# sourceMappingURL=style.css.map */
