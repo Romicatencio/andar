@@ -401,7 +401,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   /* titulo.recursos hum */
-  .humanosh2 {
+  .humanos h2 {
     font-size: 50px;
     color: darkorange;
     background-color: gray;
@@ -757,7 +757,7 @@
     width: 100%;
     height: auto;
     max-width: 400px;
-    margin-left: 40px;
+    margin-left: 30px;
     border: 5px solid white;
   }
   /* explicacion */
@@ -787,7 +787,7 @@
     width: 400px;
     padding: 20px;
     margin: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   /* titulo-seguridad e higiene */
   .titulo-seguridad h3 {
@@ -842,22 +842,22 @@
   .img-recursos {
     background: -webkit-gradient(linear, left top, left bottom, from(darkorange), to(white));
     background: linear-gradient(darkorange, white);
-    padding: 10px;
-    margin: 20px;
+    padding: 5px;
+    margin: 10px;
     /* item de recursos hum */
   }
   .img-recursos img {
     width: 40px;
     height: 40px;
     display: inline;
-    margin-left: 10px;
-    margin: 20px;
+    margin: 5px;
     border-radius: 40px;
-    border: solid 4px black;
+    border: solid 3px black;
   }
   .img-recursos h3 {
     font-size: 15px;
     display: inline;
+    text-align: left;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -408,7 +408,7 @@ margin: 10px;
     width: 100%;
     height: auto;
     max-width: 400px;
-    margin-left: 40px;
+    margin-left: 30px;
     border: 5px solid white;}
 
 /* explicacion */
@@ -441,7 +441,7 @@ margin: 10px;
     width: 400px;
     padding: 20px;
     margin: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 /* titulo-seguridad e higiene */
@@ -511,17 +511,17 @@ background-color: black;
 
 /* contenedor img-texto */
 .img-recursos{ background:linear-gradient( darkorange, white);
-padding: 10px;
-margin: 20px;
+padding: 5px;
+margin: 10px;
 
 img{
     width: 40px;
     height: 40px;
     display: inline;
-    margin-left: 10px;
-    margin: 20px;
+
+    margin: 5px;
     border-radius: 40px;
-    border: solid 4px black;
+    border: solid 3px black;
    
 }
 
@@ -529,6 +529,7 @@ img{
 h3{
     font-size: 15px;
     display: inline;
+    text-align: left;
    
 }
 }
